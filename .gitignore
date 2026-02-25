@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+detection_logs.csv
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large AI Models and Weights
+# Ignore PyTorch weights (.pt files) because they exceed GitHub's 100MB limit
+*.pt
+*.onnx
+*.weights
+
+# Large Datasets
+# Do not upload the massive dataset folders and raw images
+dataset/
+dataset.zip
+runs/
+
+# Temporary Debug
+debug_faces.jpg
